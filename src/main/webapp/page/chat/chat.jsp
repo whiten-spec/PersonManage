@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="utf-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<c:set var="ctx" value="${pageContext.request.contextPath}"/>
+<c:set var="" value="${pageContext.request.contextPath}"/>
 <html>
 <head>
     <title>WebChat | 聊天</title>

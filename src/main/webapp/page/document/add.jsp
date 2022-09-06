@@ -29,7 +29,7 @@
         <input type="hidden" name="userId" id="userId" value="${userId}" >
         <input type="hidden" name="id" id="id" value="${job.id }" >
           <div class="layui-form-item">
-              <label for="username" class="layui-form-label">
+              <label for="title" class="layui-form-label">
                   <span class="x-red">*</span>标题
               </label>
               <div class="layui-input-inline">
@@ -39,7 +39,7 @@
              
           </div>
         <div class="layui-form-item">
-              <label for="username" class="layui-form-label">
+              <label for="remark" class="layui-form-label">
                   <span class="x-red">*</span>描述
               </label>
               <div class="layui-input-inline">
@@ -49,7 +49,7 @@
              
           </div>
          <div class="layui-form-item">
-              <label for="username" class="layui-form-label">
+              <label for="file" class="layui-form-label">
                   <span class="x-red">*</span>上传文件
               </label>
               <div class="layui-input-inline">
@@ -58,7 +58,7 @@
              
           </div>
           <div class="layui-form-item">
-              <label for="L_repass" class="layui-form-label">
+              <label class="layui-form-label">
               </label>
               <input type="submit" value=" 提交" class="layui-btn" lay-filter="add" lay-submit=""/>
                  
