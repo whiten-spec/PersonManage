@@ -17,7 +17,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 @MapperScan("cn.pzhu.pserson.dao.dao")
 @SpringBootApplication(scanBasePackages = "cn.pzhu.pserson")
 //@ComponentScan(basePackages = "cn.pzhu.pserson")
-//@ImportResource("classpath:springmvc-config.xml")
+@ImportResource("classpath:springmvc-config.xml")
 @EnableWebSocket
 public class PsersonApplication {
 
